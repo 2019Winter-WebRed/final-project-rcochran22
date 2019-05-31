@@ -1,0 +1,61 @@
+/* Name:
+*  Date: 
+*  Lab: C13 Fluid Layout Exercise */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width:1000px ;
+    background-color:white;
+    margin: 15px auto;
+    font-size: 104.0%
+}
+
+
+
+
+header {
+    border-bottom: 10px solid #ffe6ff;text-align: center; 
+}
+h1{text-align: center; }
+#sidebarA {
+    width: 180px;
+    height: 700px;
+    float:left;
+    border-right: 2px solid #ffe6ff;
+    background-color: #00ace6
+}
+
+main {
+    width: 600px;
+    float: left;
+    background-color: #e0b3ff
+}
+
+#sidebarB {
+    width:215px ;
+    height: 700px;
+    float: left;
+    border-left: 2px solid #ffe6ff;
+    background-color: #00ace6
+}
+footer {
+    clear: both;
+    border-top: 2px solid #ffe6ff;
+    background-color: #ccccff
+
+}
+p{
+    padding: 20px
+}
+ul, li {
+    list-style-position: inside; padding: 10px
+}
+#bc{width: 150px; height: 10; float: left; padding: 10px;}
+#logo{width: 1000px}
+#download{width: 150px; height: 115; float: left; padding: 10px;}
+#Leader{width: 150px; height: 115; float: left; padding: 10px;}
+#quote{width:150px; height: 150px; float: left; padding: 20px}
